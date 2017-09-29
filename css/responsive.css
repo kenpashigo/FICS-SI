@@ -1,0 +1,146 @@
+#title-holder
+{
+    width: 100%;
+}
+
+#hamburger
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#menu-holder
+{
+    display: none;
+}
+
+@media screen and (max-width: 1023px)
+{
+    #top-holder
+    {
+        min-height: 200px;
+    }
+    #titulo-nome h1
+    {
+        font-size: 25px;
+    }
+
+    #desenvolvedor
+    {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    #desenvolvedor p
+    {
+        text-align: center;
+    }
+
+    #desenvolvedor img
+    {
+        width: 30%;
+    }
+
+    #links-uteis
+    {
+        margin-bottom: 30px;
+    }
+    #body-content
+    {
+        width: 95%;
+    }
+    #title-holder
+    {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    #titulo-nome
+    {
+        margin: 0;
+    }
+    #register
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+    #low
+    {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    #desenvolvedor img
+    {
+        width: 35%;
+    }
+
+    #titulo-nome h1
+    {
+        text-align: center;
+    }
+    #logo
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        width: 60px;
+
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #logo img
+    {
+        width: 100px;
+    }
+    #links-uteis,
+    #logos-marcas,
+    #register
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #footer-holder,
+    #register
+    {
+        height: auto;
+    }
+    #frame-news
+    {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    #desenvolvedor img
+    {
+        width: 200px;
+    }
+    #go
+    {
+        display: none;
+    }
+    #body-content
+    {
+        width: 98%;
+    }
+    #frame-news
+    {
+        width: 100%;
+    }
+}
